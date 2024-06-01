@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="w-screen overflow-hidden *:mx-auto h-screen flex flex-col justify-between text-5xl">
+        <div></div>
+      {children}
+        <div className="text-xl mb-1 text-gray-700"><Link href="">Github </Link>⬤ Inspired by (literally copied from) <Link href="https://x.com/t3dotgg">@t3dotgg</Link>&nbsp;&nbsp;⬤ <Link href="https://x.com/smrdotgg">By @smrdotgg</Link> </div>
+      </body>
     </html>
   );
 }
