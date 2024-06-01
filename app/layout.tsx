@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className="w-screen overflow-hidden *:mx-auto h-screen flex flex-col justify-between text-5xl">
         <div></div>
       {children}
-        <div className="text-xl mb-1 text-gray-700"><Link href="https://github.com/smrdotgg/generators">Github</Link>&nbsp;&nbsp;⬤&nbsp;&nbsp;(Heavily) Inspired by <Link href="https://x.com/t3dotgg">@t3dotgg</Link>&nbsp;&nbsp;⬤&nbsp;&nbsp;<Link href="https://x.com/smrdotgg">By @smrdotgg</Link> </div>
+        <div className="text-xl mb-1 text-gray-700"><Link href="https://github.com/smrdotgg/generators">Github</Link>&nbsp;&nbsp;⬤&nbsp;&nbsp;(Heavily) Inspired by <Link href="https://youtu.be/fMl3QY2gcHo?t=392">Theo Browne</Link>&nbsp;&nbsp;⬤&nbsp;&nbsp;<Link href="https://x.com/smrdotgg">By Semere</Link> </div>
       </body>
     </html>
   );
